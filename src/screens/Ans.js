@@ -8,7 +8,8 @@ const Ans = () => {
          {data.map((item)=>(
             <p style={{fontWeight:"bold"}}>Q.{item.id} &nbsp; {item.q} ==&nbsp; {item.a}</p>
          ))}
-         <Link to ="/ans" ><img src="/replay.png" style={{width:"40px" ,cursor:"pointer",marginLeft:"60px",marginTop:"40px"}} /></Link>
+         
+         <Link to ="/" ><img src="/replay.png" style={{width:"40px" ,cursor:"pointer",marginLeft:"60px",marginTop:"40px"}} /></Link>
          
     </div>
   )
