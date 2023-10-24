@@ -4,7 +4,7 @@ import question from "../data"
 import "./scramble.css"
 const Scramble = () => {
     
-    
+      
     const [marks,setmarks]=useState(0);
     const [count,setcount]=useState(0)
     const [ans , setans]=useState("");
@@ -146,8 +146,8 @@ const Scramble = () => {
             <h1 style={{textAlign:"center"}}>{marks}</h1>
 
             <button onClick={replay} style={{background:"none" ,border:"none",marginLeft:"120px",marginTop:"10px"}}><img src="/replay.png" style={{width:"40px" ,cursor:"pointer"}} /> </button>
-              
             
+            <Link to ="/ans" >answers</Link>
         </div>
         
       
