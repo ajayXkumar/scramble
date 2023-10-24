@@ -1,0 +1,65 @@
+.card{
+    background-color: white;
+    display: flex;
+}
+.whole-body{
+     border: .5px solid rgb(45, 45, 45);
+     height: 300px;
+     width: 300px;
+     padding:10px;
+     border-radius: 6px;
+}
+.tm{
+    width: 250px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-left: 25px;
+    
+}
+.question{
+    margin-top: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.heading{
+    text-align: center;
+    margin: 3px;
+}
+.user-input{
+    align-self: center;
+    padding: 4px;
+    border: .3px solid black;
+    margin-left: 25px;
+    width: 240px;
+}
+.all-but{
+    margin-top: 30px;
+}
+.but{
+    width:70px;
+    padding:4px;
+    margin-left:40px;
+    background-color: crimson;
+    border: 0px;
+    border-radius: 4px;
+    color: white;
+}
+.skip{
+    width:70px;
+    padding:4px;
+    margin-left:70px;
+    background-color: crimson;
+    border: 0px;
+    border-radius: 4px;
+    color: white;
+}
+.result{
+    border: .5px solid rgb(45, 45, 45);
+    height: 300px;
+    width: 300px;
+    padding:10px;
+    border-radius: 6px;
+    
+}
